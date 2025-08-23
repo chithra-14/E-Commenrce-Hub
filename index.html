@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce Hub</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>🛒 Welcome to E-Commerce Hub</h1>
+    <p>Your one-stop gateway to shopping, fashion, groceries, travel, and food delivery apps!</p>
+  </header>
+<!-- Navigation Bar -->
+<nav class="navbar">
+  <div class="logo">🛒 E-Commerce Hub</div>
+
+  <!-- Search Bar -->
+  <div class="search-bar">
+    <input type="text" placeholder="Search for products, brands and more...">
+    <button>Search</button>
+  </div>
+
+  <!-- Nav Actions -->
+  <ul class="nav-actions">
+    <li><a href="login.html">Login</a></li>
+    <li><a href="signup.html">Signup</a></li>
+    <li><a href="profile.html">Profile</a></li>
+    <li><a href="cart.html">Cart 🛍️</a></li>
+  </ul>
+
+  <!-- Hamburger (for mobile) -->
+  <div class="hamburger" id="hamburger">&#9776;</div>
+</nav>
+</head>
+
+<body>
+  <!-- E-Commerce Section -->
+  <section>
+    <h2>E-Commerce Apps</h2>
+    <div class="grid">
+      <a href="https://www.flipkart.com" target="_blank" class="card">Flipkart</a>
+      <a href="https://www.amazon.in" target="_blank" class="card">Amazon</a>
+      <a href="https://www.myntra.com" target="_blank" class="card">Myntra</a>
+      <a href="https://www.meesho.com" target="_blank" class="card">Meesho</a>
+      <a href="https://www.ajio.com" target="_blank" class="card">Ajio</a>
+      <a href="https://www.tatacliq.com" target="_blank" class="card">TataCliq</a>
+    </div>
+  </section>
+
+  <!-- Cosmetics Section -->
+  <section>
+    <h2>Cosmetics</h2>
+    <div class="grid">
+      <a href="https://www.nykaa.com" target="_blank" class="card">Nykaa</a>
+      <a href="https://www.sugarcosmetics.com" target="_blank" class="card">Sugar</a>
+      <a href="https://www.lakmeindia.com" target="_blank" class="card">Lakme</a>
+    </div>
+  </section>
+
+  <!-- Food Section -->
+  <section>
+    <h2>Food Delivery</h2>
+    <div class="grid">
+      <a href="https://www.swiggy.com" target="_blank" class="card">Swiggy</a>
+      <a href="https://www.zomato.com" target="_blank" class="card">Zomato</a>
+      <a href="https://www.dominos.co.in" target="_blank" class="card">Dominos</a>
+      <a href="https://www.mcdonaldsindia.com" target="_blank" class="card">McDonald's</a>
+      <a href="https://www.kfc.co.in" target="_blank" class="card">KFC</a>
+      <a href="https://www.pizzahut.co.in" target="_blank" class="card">Pizza Hut</a>
+    </div>
+  </section>
+
+  <!-- Groceries Section -->
+  <section>
+    <h2>Groceries</h2>
+    <div class="grid">
+      <a href="https://www.bigbasket.com" target="_blank" class="card">BigBasket</a>
+      <a href="https://www.grofers.com" target="_blank" class="card">Grofers</a>
+      <a href="https://www.amazon.in/grocery" target="_blank" class="card">Amazon Grocery</a>
+      <a href="https://www.zepto.com" target="_blank" class="card">Zepto</a>
+    </div>
+  </section>
+
+  <!-- Travel Section -->
+  <section>
+    <h2>Travel & Booking</h2>
+    <div class="grid">
+      <a href="https://www.irctc.co.in" target="_blank" class="card">IRCTC</a>
+      <a href="https://www.makemytrip.com" target="_blank" class="card">MakeMyTrip</a>
+      <a href="https://www.yatra.com" target="_blank" class="card">Yatra</a>
+    </div>
+  </section>
+
+<section class="about">
+  <div class="about-content">
+    <h2>About E-Commerce Hub</h2>
+    <p>
+      Welcome to <strong>E-Commerce Hub</strong>, your one-stop destination for all your shopping needs. 
+      From the latest fashion trends, beauty essentials, and everyday groceries to food delivery and 
+      hassle-free travel bookings – we bring together the best apps and services under one platform. 
+      Explore, compare, and shop with ease while enjoying a seamless, fast, and secure browsing experience. 
+      Whether you’re looking for style, convenience, or comfort, E-Commerce Hub is designed to be your 
+      trusted gateway to smarter online shopping.
+    </p>
+  </div>
+</section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Made with ❤️ | © 2025 E-Commerce Hub</p>
+  </footer>
+
+<script>
+  const hamburger = document.getElementById("hamburger");
+  const navActions = document.querySelector(".nav-actions");
+
+  hamburger.addEventListener("click", () => {
+    navActions.classList.toggle("active");
+  });
+</script>
+
+</body>
+</html>
